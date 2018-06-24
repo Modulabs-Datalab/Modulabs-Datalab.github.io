@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 ### Finally! We buid Web page for DataLAB of Modulabs!!
-### We will organize stuffs that we have studied on this pages(SPARRRRRTA!!!!!!!)
+### We will organize stuffs that we have studied on this pages(SPARTAAAAAAA!!!!!!!)
 
 You can use the [editor on GitHub](https://github.com/Modulabs-Datalab/Modulabs-Datalab.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
