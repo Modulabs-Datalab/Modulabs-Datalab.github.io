@@ -1,5 +1,6 @@
 ---
 layout: default
+use_math: true
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
@@ -12,7 +13,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Formula Redeging Test
 
-$$ \overrightarrow v = \[v\1dots\] $$
+## $$ \overrightarrow V = [v_1, v_2, v_3 \ldots v_n], v \in R^m $$
 
 # Header 1
 
