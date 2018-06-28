@@ -13,8 +13,19 @@ use_math: true
 [https://www.git-scm.com/](https://www.git-scm.com/)
 
 ## 주요 명령어 모음
+
 ### git init
 git init은 저장소를 초기화 하는 명령어로 원하는 workspace에 들어간 후 git init 명령을 실행하면 해당 폴더에 .git이라는 숨겨진 폴더가 생성 되며 해당 폴더의 버전 관리를 하게 됩니다.
+
+### git config user.name
+git사용자의 이름을 정의 하는 명령어 입니다. 실제 사용은 **git config user.name "사용자 이름"** 으로 사용합니다. 이때 사용자 이름은 github의 계정 이름으로 설정해야 되는거 같긴합니다.
+config와 user.name 사이에 옵션으로 --global을 넣기도 하는데 필수는 아닙니다만 global옵견을 줄 경우 뭐가 좋은지는 잘 모르겠습니다.
+사용자 이름을 넣지 않을 경우 현재 어떤 사람이 git 작업 중인지 알 수 있습니다.
+
+### git config user.email
+git사용자 이메일을 정의 하는 명령어 입니다. 실제 사용은 **git config user.email "사용자 이메일"** 으로 사용합니다. 이때 사용자 이메일은 github의 계정 이메일 입니다.
+config와 user.email 사이에 옵션으로 --global을 넣기도 하는데 필수는 아닙니다만 global옵견을 줄 경우 뭐가 좋은지는 잘 모르겠습니다.
+사용자 이메일을 넣지 않을 경우 현재 어떤 계정으로 git 작업 중인지 알 수 있습니다.
 
 ### git status
 git status는 현재 작업한 내용을 조회 할수 있는 명령어로 git으로 관리되는 프로젝트안의 파일의 변경/삭제 이력을 보여 줍니다.
@@ -30,7 +41,7 @@ git push는 작업한 내용을 github로 업뎃하는 명령입니다.
 
 ### github 올리는 순서
 로컬에서 작업한 내용을 github 저장소로 업데이트를 하려면 다음과 같은 순서로 해야 정상적으로 반영이 됩니다.
-**파일 작성 후 저장->git add.->git commit->git push**
+**파일 작성 후 저장->git add .->git commit->git push**
 
 ### 이외에 추가적으로 알아야(정리해야 할) 명령어 : git branch, git checkout 등등
 
