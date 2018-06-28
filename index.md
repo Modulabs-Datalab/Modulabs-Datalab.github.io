@@ -3,13 +3,36 @@ layout: default
 use_math: true
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Git 사용법 - 작성자의 능력의 한계로 기본 사용법만 알려 드립니다.
+## git 설치
+### 우분투의 경우
+터미널 창을 열고 sudo apt-get install git을 입력 한 후 엔터를 치면 됩니다.
 
-[Link to another page](./another-page.html).
+### 윈도우의 경우
+아래 링크로 가서 설치 파일을 다운 받은 후 실행하면 됩니다.
+[https://www.git-scm.com/](https://www.git-scm.com/)
 
-There should be whitespace between paragraphs.
+## 주요 명령어 모음
+### git init
+git init은 저장소를 초기화 하는 명령어로 원하는 workspace에 들어간 후 git init 명령을 실행하면 해당 폴더에 .git이라는 숨겨진 폴더가 생성 되며 해당 폴더의 버전 관리를 하게 됩니다.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+### git status
+git status는 현재 작업한 내용을 조회 할수 있는 명령어로 git으로 관리되는 프로젝트안의 파일의 변경/삭제 이력을 보여 줍니다.
+
+### git add
+작업한 폴더의 작업 내용을 추가 하는 명령어로 본래 사용법은 **git add [작업한 파일 명]** 입니다. 귀찮으면 **git add .** 으로 하면 됩니다. .의 의미는 폴더에 있는 모든 파일을 add 한다는 의미입니다.
+
+### git commit
+git commit은 add한 작업 내용의 설명을 입히는 작업입니다. 사용은 **git commit -m "내용설명"** 으로 하면됩니다.
+
+### git push
+git push는 작업한 내용을 github로 업뎃하는 명령입니다.
+
+### github 올리는 순서
+로컬에서 작업한 내용을 github 저장소로 업데이트를 하려면 다음과 같은 순서로 해야 정상적으로 반영이 됩니다.
+**파일 작성 후 저장->git add.->git commit->git push**
+
+### 이외에 추가적으로 알아야(정리해야 할) 명령어 : git branch, git checkout 등등
 
 # Formula Redeging Test
 
