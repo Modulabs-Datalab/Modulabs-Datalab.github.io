@@ -31,7 +31,7 @@ sidebar:
  ~~~
 
 ### 벡터의 표기
-![벡터의 표현](\assets\images\vector_expression.jpg)<br><br>
+![벡터의 표현](\assets\images\vector_expression.JPG)<br><br>
 $$ | \vec a | $$ : $$ \vec a$$ 의 크기
 $$ | \vec a |=5 $$
  - 선형 대수로 나타내면 $$ \left[\matrix{3 \cr 4} \right] $$ 가 된다.
@@ -88,7 +88,7 @@ print(c)
 
 #### 수식(?)으로 표현하는 방법
  - 2차원에서 두 벡터 합 계산<br>
-![2차원 벡터 합](\assets\images\2d_vector_sum.jpg)<br>
+![2차원 벡터 합](\assets\images\2d_vector_sum.JPG)<br>
  $$ \vec a=(a_1,a_2), \vec b=(b_1,b_2) $$<br><br>
  $$ \vec{a} +\vec{b}=(a_1+b_1,a_2+b_2) $$<br><br>
  $$ \vert \vec{a} + \vec{b} \vert = \sqrt{(a_1+b_1)^2 + (a_2+b_2)^2)} $$<br><br>
@@ -107,7 +107,7 @@ print(b)
 ```
 <br>
  - 3차원에서 두 벡터 합 계산<br>
- ![3차원 벡터 합](\assets\images\3d_vector_sum.jpg)<br>
+ ![3차원 벡터 합](\assets\images\3d_vector_sum.JPG)<br>
  $$ \vec a=(a_1,a_2,a_3), \vec{b}=(b_1,b_2,b_3) $$<br><br>
  $$ \vec a + \vec b=(a_1+b_1,a_2+b_2,a_3+b_3) $$<br><br>
  $$ \vert \vec a + \vec b \vert = \sqrt{(a_1+b_1)^2 + (a_2+b_2)^2 + (a_3+b_3)^2)} $$<br><br>
