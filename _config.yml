@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Modulabs DataLAB Gitpage"
 title_separator          : "-"
 name                     : "모두의연구소 데이터랩"
-description              : "An amazing website."
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "모두의연구소 데이터랩"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "모두의연구소 데이터랩 Git 페이지 입니다."
   location         : "모두의연구소 개포 캠퍼스"
   email            : "modulabs.datalab@gmail.com"
@@ -199,7 +199,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: #Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -269,3 +269,22 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_tiem: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  #_pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: sinlge
+      author_profile: true
