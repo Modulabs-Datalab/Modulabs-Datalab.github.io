@@ -43,7 +43,7 @@ $$ | \vec a |=5 $$
 ## 2.벡터의 연산
 ### 교환법칙
  - 벡터(Vertor)에 Scalar를 곱하면 교환법칙이 성립한다.
- $$ c \left[ \matrix{a \cr b} \right] = \left[ \matrix{a \cr b} \right] c $$
+ $$ c \left[ \matrix{a \cr b} \right] = \left[ \matrix{a \cr b} \right] c $$<br>
  ```python
  #벡터 스칼라 곱
  a=[1,2,3]
@@ -77,12 +77,12 @@ print(c)
 
 ### 벡터 크기의 합
 #### 도형으로 표현 하는 방법 <br>
-[평행사변형법 이미지 삽입_그리거나 구할 것]
+![평행사변형법](\assets\images\vector_parallelogram.JPG)<br>
  - 평행사변형법
   $$ \vec a $$ 와 $$ \vec b $$<br>
  시작점 일치 시: 평행사변의 대각선이 두 백서의 합을 의미
  - $$| \vec a + \vec b |$$ : 두 벡터 합의 크기 $$ \rightarrow \overline{OC} $$ 대각선 길이를 의미<br>
- [삼각형법 이미지 삽입_그리거나 구할 것]
+ ![삼각형법](\assets\images\vector_triangle.JPG)<br>
  - $$ \vec a $$ 와 $$ \vec b $$의 종점을 연결 시 : 시작점과 종점을 연결한 벡터가 두 벡터의 합을 의미<br>
  - $$ \vert \vec a + \vec b \vert $$ : 두 벡터의 합의 크기 $$ \rightarrow \overline{OB} $$ 길이를 의미<br>
 
